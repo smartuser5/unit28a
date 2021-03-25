@@ -1,14 +1,43 @@
-#wrapper {
 
-width:70%;
-margin:auto;
+body {
+
+background: url('../images/bg1.jpg');
+
+}
+
+p {
+
+font-family: 'Hachi Maru Pop', cursive;
 
 }
 
 
+h1#title {
+
+
+
+font-family: 'Potta One', cursive;
+
+}
+
+#wrapper {
+    width: 70%;
+    margin: auto;
+background: hsla(0,0%,100%,0.94);
+
+
+
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 ul#social { 
 list-style-type: none;
+	/*display:flex;*/
 
 }
 
@@ -29,6 +58,7 @@ nav ul {
 
 nav ul li {
   float: left;
+
 }
 
 nav ul li a {
@@ -43,3 +73,41 @@ nav ul li a {
 nav ul li a:hover {
   background-color: #111;
 }
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #ff0000;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 60px;
+  font-size: 20px;
+  text-align: right;
+}
+
+
+footer {
+background: hsla(0,0%,100%,0.94);
+} 
+
+footer ul li img {
+	width:30%;
+
+}
+
+
+#hero{
+
+background: url('../images/fake-news-hero.jpg');
+	height: 300px;
+
+} 
+
+
+
+
+
